@@ -58,6 +58,20 @@ Some settings are below:
 
 ## Results and Reproduction
 
+| $Feedback\,\,bits$                                            | \multicolumn{3}{c}{49}    | \multicolumn{3}{c}{87}  | \multicolumn{3}{c}{130}   | \multicolumn{3}{c}{242} |
+|---------------------------------------------------------------|---------------------------|-------------------------|---------------------------|-------------------------|
+| \multirow{2}{*}{$Model\ pairs$}                               | \multicolumn{2}{c}{FLOPs} | \multirow{2}{*}{$SGCS$} | \multicolumn{2}{c}{FLOPs} | \multirow{2}{*}{$SGCS$} | \multicolumn{2}{c}{FLOPs} | \multirow{2}{*}{$SGCS$} | \multicolumn{2}{c}{FLOPs} | \multirow{2}{*}{$SGCS$} |
+|                                                               | Encoder                   | Decoder                 |                           | Encoder                 | Decoder                   |                         | Encoder                   | Decoder                 |                 | Encoder                 | Decoder                 |                 |
+| $E_1+D_1$                                                     | \multirow{3}{*}{21.37M}   | \multirow{3}{*}{21.37M} | 0.6387                    | \multirow{3}{*}{21.40M} | \multirow{3}{*}{21.40M}   | 0.6762                  | \multirow{3}{*}{21.43M}   | \multirow{3}{*}{21.43M} | 0.6995          | \multirow{3}{*}{21.52M} | \multirow{3}{*}{21.52M} | 0.7719          |
+| $E_{\boldsymbol{r}}+\boldsymbol{A}_{\mathbf{1}}+D_1$          |                           |                         | \textbf{0.6341}           |                         |                           | \textbf{0.6687}         |                           |                         | \textbf{0.6896} |                         |                         | \textbf{0.7370} |
+| $                                                             |                           |                         | $0.2954$                  |                         |                           | $0.3495$                |                           |                         | $0.4328$        |                         |                         | $0.4806$        |
+| $E_2+D_2$                                                     | \multirow{3}{*}{21.37M}   | \multirow{3}{*}{17.83M} | 0.6292                    | \multirow{3}{*}{21.40M} | \multirow{3}{*}{17.86M}   | 0.6699                  | \multirow{3}{*}{21.43M}   | \multirow{3}{*}{17.89M} | 0.6973          | \multirow{3}{*}{21.52M} | \multirow{3}{*}{17.98M} | 0.7712          |
+| $E_{\boldsymbol{r}}+\boldsymbol{A}_{\mathbf{2}}+D_2$          |                           |                         | \textbf{0.6222}           |                         |                           | \textbf{0.6605}         |                           |                         | \textbf{0.6839} |                         |                         | \textbf{0.7200} |
+| $E\left( without\,\,\boldsymbol{A}_{\mathbf{2}} \right) +D_2$ |                           |                         | $0.2784$                  |                         |                           | $0.3360$                |                           |                         | $0.3719$        |                         |                         | $0.4652$        |
+| $E_3+D_3$                                                     | \multirow{3}{*}{21.37M}   | \multirow{3}{*}{2.71M}  | 0.6194                    | \multirow{3}{*}{21.40M} | \multirow{3}{*}{2.74M}    | 0.6453                  | \multirow{3}{*}{21.43M}   | \multirow{3}{*}{2.77M}  | 0.6707          | \multirow{3}{*}{21.52M} | \multirow{3}{*}{2.86M}  | 0.7072          |
+| $E_{\boldsymbol{r}}+\boldsymbol{A}_{\mathbf{3}}+D_3$          |                           |                         | \textbf{0.6025}           |                         |                           | \textbf{0.6284}         |                           |                         | \textbf{0.6512} |                         |                         | \textbf{0.6759} |
+| $E\left( without\,\,\boldsymbol{A}_{\mathbf{3}} \right) +D_3$ |                           |                         | $0.2276$                  |                         |                           | $0.2709$                |                           |                         | $0.2917$        |                         |                         | $0.3601$        |
+| %12                                                           | 0.9357                    | 0.9389                  | 0.8751                    | 0.8791                  | 0.8190                    | 0.9000                  | 0.7519                    | 0.8273                  |
 
 
 
@@ -65,4 +79,5 @@ Some settings are below:
 
 
 
-Thanks  the Github project members for the open source [Transformer tutorial](https://github.com/datawhalechina/Learn-NLP-with-Transformers), our base model for TransNet is based on their work.
+This work was supported in part by the National Natural Science Foundation
+of China under Grant (No.92067202), Grant (No.62071058) and CICT Mobile Communication Technology Co., Ltd. 
