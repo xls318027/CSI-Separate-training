@@ -27,9 +27,7 @@ Some settings are below:
 | Frequency Range                       | FR1 only                                                                                           |
 | Inter-BS distance                     | 200m                                                                                               |
 | Channel model                         | According to TR 38.901                                                                             |
-| Antenna setup and port layouts at gNB | 32 ports: (8,8,2,1,1,2,8), (dH,dV) = (0.5, 0.8)λ
-
-16 ports: (8,4,2,1,1,2,4), (dH,dV) = (0.5, 0.8)λ |
+| Antenna setup and port layouts at gNB | 32 ports: (8,8,2,1,1,2,8), (dH,dV) = (0.5, 0.8)λ 16 ports: (8,4,2,1,1,2,4), (dH,dV) = (0.5, 0.8)λ
 | Antenna setup and port layouts at UE  | 4RX: (1,2,2,1,1,1,2), (dH,dV) = (0.5, 0.5)λ for (rank 1-4)                                         |
 | BS Tx power                           | 41 dBm                                                                                             |
 | BS antenna height                     | 25m                                                                                                |
@@ -37,15 +35,7 @@ Some settings are below:
 | UE receiver noise figure              | 9dB                                                                                                |
 | Modulation                            | Up to 256QAM                                                                                       |
 | Coding on PDSCH                       | LDPC
-
-Max code-block size=8448bit                                                                  |
-| Numerology                            | Slot/non-slot                                                                                      | 14 OFDM symbol slot |
-| SCS                                   | 15kHz for 2GHz                                                                                     |
-| Simulation bandwidth                  | 10MHz                                                                                              |
-| Frame structure                       | Slot Format 0 (all downlink) for all slots                                                         |
-| CSI feedback                          | CSI feedback periodicity: 5 ms,
-
-Scheduling delay: 4 ms                                            |
+|Max code-block                         |size=8448bit  
 | Traffic model                         | Full buffer                                                                                        |
 | UE distribution                       | 80% indoor (3km/h), 20% outdoor (30km/h)                                                           |
 | UE receiver                           | MMSE-IRC                                                                                           |
