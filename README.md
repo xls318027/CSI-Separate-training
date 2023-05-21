@@ -49,7 +49,7 @@ Some settings are below:
 | Channel estimation                    | Realistic
 
 #### B. System illustrations
-![image]([Separate training decoder for 3×1 system.png](https://github.com/xls318027/CSI-Separate-training/blob/a1eb15aa653c8280666afeaad82e33d29ade33cc/Separate%20training%20decoder%20for%203%C3%971%20system.png))
+![image]([Separate training decoder for 3×1 system.png](https://github.com/xls318027/CSI-Separate-training/blob/a1eb15aa653c8280666afeaad82e33d29ade33cc/Separate%20training%20decoder%20for%203%C3%971%20system.png)
 ![[Separate training encoder for 1×3 system.png]]
 #### C. Code files lists and explanation
 
