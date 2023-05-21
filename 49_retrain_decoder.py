@@ -19,7 +19,7 @@ tf.python.keras.backend.clear_session()  # clear session
 train_encode_feature = np.load("train_feature.npy")
 val_encode_feature = np.load("val_feature.npy")
 x_train_all = np.load("DATA/x_train_all.npy")
-x_val_all = np.load("DATA/p_x_val_all.npy")
+x_val_all = np.load("DATA/x_val_all.npy")
 EMBEDDING_DIM = 64 * 6
 NUM_QUAN_BITS = 2
 NUM_HEAD = 8
