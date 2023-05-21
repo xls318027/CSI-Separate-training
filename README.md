@@ -35,7 +35,13 @@ Some settings are below:
 | UE receiver noise figure              | 9dB                                                                                                |
 | Modulation                            | Up to 256QAM                                                                                       |
 | Coding on PDSCH                       | LDPC
-|Max code-block                         |size=8448bit  
+| Max code-block                        |size=8448bit  
+|Slot/non-slot                          |14 OFDM symbol slot
+|SCS                                    |15kHz for 2GHz
+|Simulation bandwidth                   |10MHz
+|Frame structure                        |Slot Format 0 (all downlink) for all slots
+|CSI feedback periodicity               |5 ms
+|Scheduling delay                       |4 ms
 | Traffic model                         | Full buffer                                                                                        |
 | UE distribution                       | 80% indoor (3km/h), 20% outdoor (30km/h)                                                           |
 | UE receiver                           | MMSE-IRC                                                                                           |
