@@ -17,7 +17,7 @@ Our experiment packages version are below:
 
 ### A. Data Preparation
 
-The channel state information (CSI) Eigenvectors was generated based on the CDL channel at  UMa scenario, as per the Scenarios and Requirements for AI-enhanced CSI from 3GPP Release 16 discussion. You can acquire our experiment datasets on [Google Drive](https://drive.google.com/drive/folders/1_lAMLk_5k1Z8zJQlTr5NRnSD6ACaNRtj?usp=sharing) and [Baidu Netdisk](https://pan.baidu.com/s/1Ggr6gnsXNwzD4ULbwqCmjA).
+The channel state information (CSI) Eigenvectors was generated based on the CDL channel at  UMa scenario, as per the Scenarios and Requirements for AI-enhanced CSI from 3GPP Release 16 discussion. You can acquire our experiment datasets on [Google Drive](https://drive.google.com/drive/folders/1_lAMLk_5k1Z8zJQlTr5NRnSD6ACaNRtj?usp=sharing) and [Baidu Netdisk](https://pan.baidu.com/s/1zc13kRdV8qtkgGsS4OgFqw?pwd=zdyg).
 
 Some settings are below:
 | **Parameter**                         | **Value**                                                                                          |
