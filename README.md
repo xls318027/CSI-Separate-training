@@ -49,7 +49,7 @@ Some settings are below:
 | Channel estimation                    | Realistic
 
 #### B. System illustrations
-![[Separate training decoder for 3×1 system.png]]
+![image](Separate training decoder for 3×1 system.png)
 ![[Separate training encoder for 1×3 system.png]]
 #### C. Code files lists and explanation
 
