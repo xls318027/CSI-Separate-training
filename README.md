@@ -50,7 +50,9 @@ Some settings are below:
 
 #### B. System illustrations
 ![Separate training decoder for 3×1 system.png](https://github.com/xls318027/CSI-Separate-training/blob/a1eb15aa653c8280666afeaad82e33d29ade33cc/Separate%20training%20decoder%20for%203%C3%971%20system.png)
-![[Separate training encoder for 1×3 system.png]]
+Separate training decoder for 3×1 system.png
+![Separate training encoder for 1×3 system.png](https://github.com/xls318027/CSI-Separate-training/blob/ca494729b3de4e39d64bbd0553b1e86897a30172/Separate%20training%20encoder%20for%201%C3%973%20system.png)
+Separate training encoder for 1×3 system.png
 #### C. Code files lists and explanation
 
 
